@@ -36,3 +36,44 @@ This is the Implementation my partener to this project [dorin133](https://github
 The code place in [Taco-Trash-Detection](Taco-Trash-Detection.ipynb).
 
 You can clone the project in [colab](https://colab.research.google.com) and run it there if you dont have a powerful enough computer.
+
+## Results
+
+1. Adam
+![results](./trash-detection-best-results/adam/results.png)
+
+Model prediction | Actual Lables
+---|---
+![pred](./trash-detection-best-results/adam/test_batch0_pred.jpg) |  ![pred](./trash-detection-best-results/adam/test_batch0_labels.jpg)
+![pred](./trash-detection-best-results/adam/test_batch1_pred.jpg) |  ![pred](./trash-detection-best-results/adam/test_batch1_labels.jpg)
+![pred](./trash-detection-best-results/adam/test_batch2_pred.jpg) |  ![pred](./trash-detection-best-results/adam/test_batch2_labels.jpg)
+---
+2. SGD
+    ![results](./trash-detection-best-results/base-SGD/results.png)
+
+Model prediction | Actual Lables
+---|---
+![pred](./trash-detection-best-results/base-SGD/test_batch0_pred.jpg) |  ![pred](./trash-detection-best-results/base-SGD/test_batch0_labels.jpg)
+![pred](./trash-detection-best-results/base-SGD/test_batch1_pred.jpg) |  ![pred](./trash-detection-best-results/base-SGD/test_batch1_labels.jpg)
+![pred](./trash-detection-best-results/base-SGD/test_batch2_pred.jpg) |  ![pred](./trash-detection-best-results/base-SGD/test_batch2_labels.jpg)
+
+---
+3. SGD - IOU 0.45
+
+![results](./trash-detection-best-results/SGD-IOU-0.45/results.png)
+
+Model prediction | Actual Lables
+---|---
+![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch0_pred.jpg) |  ![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch0_labels.jpg)
+![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch1_pred.jpg) |  ![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch1_labels.jpg)
+![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch2_pred.jpg) |  ![pred](./trash-detection-best-results/SGD-IOU-0.45/test_batch2_labels.jpg)
+
+---
+4. Lion
+![results](./trash-detection-best-results/lion/results.png)
+
+Model prediction | Actual Lables
+---|---
+![pred](./trash-detection-best-results/lion/test_batch0_pred.jpg) |  ![pred](./trash-detection-best-results/lion/test_batch0_labels.jpg)
+![pred](./trash-detection-best-results/lion/test_batch1_pred.jpg) |  ![pred](./trash-detection-best-results/lion/test_batch1_labels.jpg)
+![pred](./trash-detection-best-results/lion/test_batch2_pred.jpg) |  ![pred](./trash-detection-best-results/lion/test_batch2_labels.jpg)

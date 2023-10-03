@@ -1,22 +1,38 @@
-# CS236781: Deep Learning on Computational Accelerators
-# Homework Assignment 4
-
-Faculty of Computer Science, Technion.
-
-## Introduction
-
-TODO
+# Course CS236781: Deep Learning Final Mini Project
 
 
-## General Guidelines
 
-- Please read the [getting started page](https://vistalab-technion.github.io/cs236781/assignments/getting-started) on the course website. It explains how to **setup, run and submit** the assignment.
-- This assignment requires running on GPU-enabled hardware. Please read the [course servers usage guide](https://vistalab-technion.github.io/cs236781/assignments/hpc-servers). It explains how to use and run your code on the course servers to benefit from training with GPUs.
-- The text and code cells in these notebooks are intended to guide you through the
-  assignment and help you verify your solutions.
-  The notebooks **do not need to be edited** at all (unless you wish to play around).
-  The only exception is to fill your name(s) in the above cell before submission.
-  Please do not remove sections or change the order of any cells.
-- All your code (and even answers to questions) should be written in the files
-  within the python package corresponding the assignment number (`hw1`, `hw2`, etc).
-  You can of course use any editor or IDE to work on these files.
+## You can find the full project assignment [here](Full-Project-Assignment.ipynb).
+
+## The Guidelines as given:
+>
+>
+>In this part you'll implement a small comparative-analysis project, heavily based on the materials from the tutorials and homework.
+>- You should implement the code which displays your results in this notebook, and add any additional code files for your implementation in the `project/` directory. You can import these files here, as we do for the homeworks.
+>- Running this notebook should not perform any training - load your results from some output files and display them here. The notebook must be runnable from start to end without errors.
+>- You must include a detailed write-up (in the notebook) of what you implemented and how. 
+>- Explain the structure of your code and how to run it to reproduce your results.
+>- Explicitly state any external code you used, including built-in pytorch models and code from the course tutorials/homework.
+>- Analyze your numerical results, explaining **why** you got these results (not just specifying the results).
+>- Where relevant, place all results in a table or display them using a graph.
+>
+>
+>
+## The Projects Goals
+
+>
+>
+>* You need to perform Object Detection task, over 7 of the dataset.
+>* The annotation for object detection can be downloaded from here: https://github.com/wimlds-trojmiasto/detect-waste/tree/main/annotations.
+>* The data and annotation format is like the COCOAPI: https://github.com/cocodataset/cocoapi (you can find a notebook of how to perform evalutation using it here: https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocoEvalDemo.ipynb)
+>(you need to install it..)
+>* if you need a beginner guild for OD in COCOAPI, you can read and watch this link: https://www.neuralception.com/cocodatasetapi/ 
+>
+>
+# Our Implementation
+
+This is the Implementation my partener to this project [dorin133](https://github.com/dorin133) and I decided go with. 
+
+The code place in [Taco-Trash-Detection](Taco-Trash-Detection.ipynb).
+
+You can clone the project in [colab](https://colab.research.google.com) and run it there if you dont have a powerful enough computer.

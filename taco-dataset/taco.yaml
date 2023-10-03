@@ -1,0 +1,9 @@
+
+train: /home/shaharzafran/CS236781-Mini-Project/taco-dataset/train/
+val: /home/shaharzafran/CS236781-Mini-Project/taco-dataset/test/
+
+# number of classes
+nc: 7
+
+# class names
+names: ['metals_and_plastic', 'other', 'non_recyclable', 'glass', 'paper', 'bio', 'unknown']
